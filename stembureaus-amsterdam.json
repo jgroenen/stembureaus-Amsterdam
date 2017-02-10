@@ -9,10 +9,23 @@
       "titel": "stemlocaties referendum",
       "filetype": "pdf"
     },
-    "omschrijving": "De locaties van de stembureaus kunt u vanaf 9 februari downloaden op deze pagina. Het overzicht staat ook in de gemeentekrant Amsterdam. Deze krant wordt in februari huis aan huis verspreid."
+    "omschrijving": "De locaties van de stembureaus kunt u vanaf 9 februari downloaden op deze pagina. Het overzicht staat ook in de gemeentekrant Amsterdam. Deze krant wordt in februari huis aan huis verspreid.",
+    "categoriën": {
+      "A": "zelfstandig toegankelijk voor rolstoelen",
+      "A + P": "gelijk aan de A-locaties, maar met een gehandicaptenparkeerplaats",
+      "B": "met hulp toegankelijk voor rolstoelen",
+      "C": "niet toegankelijk voor rolstoelen"
+    }
   },
   "data": {
     "Centrum": [
+      {
+        "extra": "06.30-21.00 uur",
+        "categorie": "A",
+        "postcode": "1012 AB",
+        "naam": "Centraal Station",
+        "adres": "Starbucks - Perron 2B"
+      },
       {
         "categorie": "C",
         "postcode": "1011 DB",
@@ -267,6 +280,13 @@
       }
     ],
     "Nieuw-West": [
+      {
+        "extra": "06.30-20.00 uur",
+        "categorie": "A",
+        "postcode": "1043 DT",
+        "naam": "Station Sloterdijk (Starbucks)",
+        "adres": "Orlyplein 103 A"
+      },
       {
         "categorie": "A + P",
         "postcode": "1043 AP",
@@ -1718,6 +1738,20 @@
     ],
     "Zuidoost": [
       {
+        "extra": "07.30-19.30 uur",
+        "categorie": "C",
+        "postcode": "1102 BR",
+        "naam": "Portocabin naast Station Amsterdam Bijlmer Arena",
+        "adres": "Hoekenrode"
+      },
+      {
+        "extra": "07.30-19.00 uur",
+        "categorie": "A + P",
+        "postcode": "1105 AZ",
+        "naam": "Academisch Medisch Centrum (AMC)",
+        "adres": "Meibergdreef 9"
+      },
+      {
         "categorie": "A + P",
         "postcode": "1102 CW",
         "naam": "Stadsdeelkantoor",
@@ -1739,7 +1773,13 @@
         "categorie": "A + P",
         "postcode": "1102 RA",
         "naam": "Wooncentrum De Venser",
-        "adres": "Berthold Brechtstraat 1"
+        "adres": "Berthold Brechtstraat 1",
+        "verplaatst": {
+          "categorie": "A",
+          "postcode": "1102 MX",
+          "naam": "Basisschool Klaverblad",
+          "adres": "Darlingstraat 1"
+        }
       },
       {
         "categorie": "C",
