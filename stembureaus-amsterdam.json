@@ -1,326 +1,1855 @@
 {
-    "metadata": {
-    },
-    "data": {
-        "Centrum": [
-            ["C","1011 DB","Gymlokaal","Tegenover Lastageweg 50"],
-            ["A + P","1011 DL","Openbare Bibliotheek","Amsterdam Oosterdokskade 143"],
-            ["C","1011 LX","School De Witte Olifant","Nieuwe Uilenburgerstraat 96"],
-            ["A + P","1011 MA","Flesseman Centrum van Ouderen","Nieuwmarkt 77"],
-            ["A","1011 VW","Stadhuis","Ingang Zwanenburgwal 13-15"],
-            ["C","1012 DB","Leger des Heils","Oudezijds Achterburgwal 45"],
-            ["C","1012 ET","De Regenboog Groep - De Princehof","Oudezijds Voorburgwal 165"],
-            ["B","1012 KD","Frascati","Nes 63"],
-            ["A","1012 VB","UvA - locatie P.C. Hoofthuis","Spuistraat 134 - 3e etage"],
-            ["A","1012 WP","Universiteitsbibliotheek Amsterdam","Singel 425"],
-            ["B","1013 BH","Ateliers Westerdok","Westerdok 318"],
-            ["C","1013 EX","Posthoornkerk","Haarlemmerstraat 124-126"],
-            ["A","1013 JR","Woon- en Zorgcentrum De Rietvinck","Vinkenstraat 185"],
-            ["B","1013 KS","School De Eilanden","Grote Bickersstraat 102"],
-            ["C","1015 BL","Burghtschool","Herengracht 34"],
-            ["A","1015 CV","De Rode Hoed","Keizersgracht 100"],
-            ["C","1015 HP","Dependance Theo Thijssen","Palmstraat 9"],
-            ["C","1015 LH","De Noorderspeeltuin","Tweede Lindendwarsstraat 10"],
-            ["C","1015 NA","Noorderkerk","Noordermarkt 47"],
-            ["C","1015 NG","Theo Thijssenschool","Anjeliersstraat 153"],
-            ["B","1015 PR","Het Perron","Egelantiersstraat 130"],
-            ["A + P","1015 ZN","Het Marnix","Marnixplein 1"],
-            ["B","1016 GW","Westerkerk","Prinsengracht 279"],
-            ["C","1016 NH","Mazzo","Rozengracht 114"],
-            ["C","1016 SB","ROC van Amsterdam","Elandsstraat 175"],
-            ["A","1016 TX","Het Claverhuis","Elandsgracht 70"],
-            ["B","1017 AW","Doopsgezinde Singelkerk","Singel 452"],
-            ["C","1017 CT","NH Caransa Hotel","Rembrandtplein 19"],
-            ["B","1017 HL","Stadsarchief - gebouw De Bazel","Vijzelstraat 32"],
-            ["A","1017 LD","Kerk De Duif","Prinsengracht 756"],
-            ["B","1017 PN","Amsterdam American Hotel","Leidsekade 97"],
-            ["A + P","1017 RR","De Balie","Kleine-Gartmanplantsoen 10"],
-            ["B","1017 VA","Basisschool De Kleine Reus","Nieuwe Looiersstraat 9"],
-            ["A","1018 DC","Artis - Tijgerzaal","Plantage Middenlaan 41 A"],
-            ["B","1018 ET","Voormalige Stadstimmertuin V","Stadstimmertuin 4-6"],
-            ["C","1018 LR","School De Pool","Poolstraat 2"],
-            ["A","1018 LT","De Witte Boei","Kleine Wittenburgerstr 201"],
-            ["A + P","1018 PR","De Keyzer","Czaar Peterstraat 10"],
-            ["C","1018 RA","De Clutch","Tweede Leeghwaterstraat 5 B"],
-            ["A + P","1018 ST","Korfbalvereniging Swift","Plantage Parklaan 20 A"],
-            ["A","1018 WC","Dr. Sarphatihuis","Roetersstraat 2"],
-            ["B","1018 WJ","Museumwerf 't Kromhout","Kruithuisstraat 25"]
-        ],
-        "Nieuw-West": [
-            ["A + P","1043 AP","APG Pensioenbeheer","Basisweg 10"],
-            ["A","1058 GA","Maureen's Bites and Drinks","Saskia van Uijlenburgkd 170"],
-            ["C","1060 LW","Basisschool de Odyssee","Cycladenlaan 2"],
-            ["A","1060 NT","Horizon Brenner","Brenner 9 (ingang Monte Rosaplein)"],
-            ["B","1060 TZ","Obs de Horizon","Zij-ingang Iwan Kantemanplein"],
-            ["A + P","1061 AD","Hogeschool Ipabo","Jan Tooropstraat 136"],
-            ["B","1062 CJ","Alexander Roozendaalschool","Jan Sluijtersstraat 3 (ingang gymzaal)"],
-            ["A","1062 CK","Woon- en Zorgcentrum De Riekerhof","Johan Jongkindstraat 3"],
-            ["A","1062 XK","Brede school Fiep Westendorp","Overschiestraat 168 A"],
-            ["B","1063 AD","Al Wafa Islamitische Basisschool","Harry Koningsbergerstr 30"],
-            ["A","1063 CW","O.B.S. Slootermeerschool","Burgemeester Fockstraat 85"],
-            ["A","1064 BR","Munduscollege","Herman Poortstraat 17"],
-            ["A + P","1064 CE","De Ontmoeting","Louis Couperusstraat 133 (ingang fysio)"],
-            ["B","1064 KC","Basisschool Veerkracht","Van Moerkerkestraat 89"],
-            ["B","1064 NE","SBO De Kans","Thomas van Aquinostraat 2"],
-            ["A","1064 PN","Cordaan de Oostoever","Bonnefantenstraat 10"],
-            ["A","1064 SW","Tuinstadhuis","Geuzenveld Plein '40-'45 nr. 1"],
-            ["B","1064 WZ","BSO de Groeiwereld","Lakenhalstraat 2"],
-            ["A + P","1065 BH","De Schutse","Comeniusstraat 20"],
-            ["A + P","1065 JX","Pro Rege Basisschool","Hemsterhuisstraat 87 A"],
-            ["A","1065 KH","Calvijn College","Pieter Calandlaan 3"],
-            ["B","1065 KW","Louis Bouwmeesterschool","Ingang Lobo-Braakensiekstraat"],
-            ["B","1065 VT","Huizingaschool - gymgebouw","Ingang via hek Justus Halbertsmastraat"],
-            ["A","1066 EC","MC Slotervaart","Louwesweg 6"],
-            ["A + P","1066 EZ","Molen van Sloten","Akersluis 10"],
-            ["A + P","1066 HK","Dependance De Mijlpaal","Anderlechtlaan 1"],
-            ["A + P","1066 KK","Obs De Vlaamse Reus","Hechtelstraat 49(zij-ingang Zonhovenstr)"],
-            ["A","1066 PP","R.K. Basisschool De Mijlpaal","Westmallepad 11"],
-            ["A + P","1066 XT","Cordaan Ottho","Heldringstraat 13"],
-            ["A + P","1067 DD","PlusPunt Eigenwijks","Geuzenveld Albardakade 5-7"],
-            ["A","1067 DE","'t Koggeschip Katholieke Basisschool","Abraham Kuyperplein 2"],
-            ["B","1067 EZ","Goeman Borgesiusschool","Aalbersestraat 35"],
-            ["A","1067 HG","Woonzorgcentrum Nieuw Geuzenveld","Cornelis Outshoornstraat 126"],
-            ["A","1067 JM","Timotheusschool","Sam van Houtenstraat 2"],
-            ["B","1068 BZ","Prof. Dr. H. Kraemerschool gymlok","ingang Veldzicht"],
-            ["B","1068 LL","Lucas Community","Notweg 32 (ingang BCO)"],
-            ["A","1068 MR","Osdorpse Montessorischool","Hoekenes 59"],
-            ["B","1068 SJ","Ichthusschool","Louis Davidsstraat 103"],
-            ["A + P","1068 TG","Stadsloket","Osdorpplein 1000"],
-            ["B","1068 VN","Vrouw en Vaart","President Allendelaan 733"],
-            ["B","1069 AJ","Verenigingsgebouw","Nivon Ouwerdingenpad 3"],
-            ["A + P","1069 BW","Zorgcentrum Leo Polak","Saaftingestraat 8"],
-            ["A","1069 JR","Basisschool Witte Tulp","Koos Vorrinkweg 5"],
-            ["A","1069 PC","Huis van de Wijk","De Aker Noorderakerweg 2"],
-            ["B","1069 PT","Het Groeipaleis","Joop Woortmanplein 5"],
-            ["A + P","1069 RK","De Kikker","Evertsweertplantsoen 3"],
-            ["A","1069 WK","Jenaplanschool Atlantis","Schuitenhuisstraat 5"]
-        ],
-        "Noord": [
-            ["A","1021 BZ","OBS De Kinderboom","Adelaarsweg 113 (ingang speelplaats)"],
-            ["B","1021 LA","Buurtcentrum De Valk","IJplein 3"],
-            ["A + P","1021 PH","Buurtcentrum De Meeuw","Motorwal 300"],
-            ["B","1023 BB","Altra College Noord","Purmerweg 116"],
-            ["C","1023 BH","Protestantse Gemeente Nieuwendam","Brede Kerkepad 6-8 (ingang via hek)"],
-            ["B","1023 EL","Speeltuinvereniging Nieuwendam","Monnikendammerplantsoen 12 A"],
-            ["C","1023 NB","ASV De Dijk","Schellingwouderdijk 220"],
-            ["A","1024 BE","Het Zwanenmeer","Beemsterstraat 491"],
-            ["A","1024 EA","OBS De Vijfsterren","Markengouw 245 A"],
-            ["B","1024 JR","Brede Mgr. Bekkersschool","Volendammerweg 160"],
-            ["A","1024 NB","Huis van de Wijk","Waterlandplein 302"],
-            ["A + P","1024 TT","Muziekschool Noord","Alkmaarstraat 10"],
-            ["A","1025 BH","Wijksteunpunt Wonen Noord","J. Drijverweg 5"],
-            ["A","1025 MZ","Senioren-flat De Wasknijper","G.J. Scheurleerweg 15"],
-            ["B","1025 NN","Orion College Amsterdam","Beijerlandstraat 2"],
-            ["B","1025 PX","Buurtcentrum de Driehoek","Waddenweg 116"],
-            ["B","1025 PZ","OBS Buikslotermeerschool","Breedveld 7"],
-            ["A + P","1025 VR","De Die","Loenermark 900"],
-            ["A + P","1025 XJ","Het Schouw","Dollardplein 2"],
-            ["A + P","1025 XL","Stadsdeelkantoor Amsterdam-Noord","Buikslotermeerplein 2000"],
-            ["A + P","1025 ZZ","Evean Korthagenhuis","Amerbos 590"],
-            ["C","1028 BK","Dorpshuis de Beke Dorpsweg","Ransdorp 29"],
-            ["A","1031 CB","OBS De Klimop","Varenweg 6"],
-            ["A + P","1031 CC","Cafe Restaurant De Pont","Buiksloterweg 3-5"],
-            ["A","1031 HD","Kringloopbedrijf De Lokatie","Distelweg 85"],
-            ["A","1032 HW","Het Anker","Kamperfoelieweg 226"],
-            ["B","1032 JR","OBS Oranje Nassauschool","Ribesstraat 13-15"],
-            ["A + P","1033 AN","Twiskehuis","Watermanstraat 2"],
-            ["A","1033 BE","Buurtcentrum De Evenaar","Kometensingel 189"],
-            ["A","1033 BW","Basisschool de Satelliet","Kometensingel 54 (ingang hoofdgebouw)"],
-            ["A","1033 GT","Gebouw","Meteorenweg 19A"],
-            ["A","1033 JR","De Rank","Druivenstraat 35"],
-            ["B","1033 LW","SBO De Zeppelin","Bessenpad 1 (ingang Mandarijnenstraat)"],
-            ["A + P","1033 PK","De Werf","Klinkerweg 73"],
-            ["A","1034 CR","Huis van de Wijk","Bezaanjachtplein 243-247"],
-            ["A + P","1034 CS","Boven IJ Ziekenhuis","Statenjachtstraat 1"],
-            ["A","1034 PX","OBS De Vier Windstreken","Parlevinker 11"],
-            ["B","1034 SG","OBS De Driemaster","Binnenvaart 1"],
-            ["A + P","1034 XZ","Eduard Douwes Dekkerhuis","Schoenerstraat 11"],
-            ["B","1035 EE","OBS De Bonkelaar","Molenwijk 3"],
-            ["B","1035 EE","OBS De Krijtmolen","Molenwijk 8"],
-            ["A","1035 EG","Openbare Bibliotheek Amsterdam","Molenwijk 21"],
-            ["B","1035 VR","OBS Twiskeschool","Pandorinastraat 7A (ingang hoofdgebouw)"]
-        ],
-        "Oost": [
-            ["A","1019 AT","Int. Instituut voor Sociale Geschiedenis","Cruquiusweg 31"],
-            ["A","1019 BN","Lloyd Hotel Oostelijke","Handelskade 34"],
-            ["A + P","1019 BN","KHL Koffiehuis","Oostelijke Handelskade 44"],
-            ["A","1019 JN","Basisschool Het Gouden Ei","C. van Eesterenlaan 50"],
-            ["C","1019 LE","Kompaszaal","KNSM-laan 311"],
-            ["A","1019 RT","OBS De Kleine Kapitein","Tosaristraat 30 A"],
-            ["A","1086 VB","abbs De Zuiderzee","Brigantijnkade 51"],
-            ["A","1086 WB","Montessorischool Steigereiland","John Hadleystraat 4"],
-            ["A","1087 DE","Flexbieb","Talbotstraat 47"],
-            ["A","1087 EH","Wijkpartners","Erich Salomonstraat 395"],
-            ["A","1087 EJ","De Binnenwaai","Ed Pelsterpark 2"],
-            ["A + P","1087 EM","Katholieke Basisschool Willibrord","Diemerparklaan 11"],
-            ["A + P","1087 HP","IJburg College","Pampuslaan 1"],
-            ["A","1091 AC","Onze Lieve Vrouwe Gasthuis","Oosterpark 9"],
-            ["B","1091 AN","OBS Aldoende","Tweede Boerhaavestraat 22"],
-            ["A","1091 GM","HVA - Wibauthuis","Wibautstraat 3 A"],
-            ["B","1091 HV","Gebouw voorheen School Louise de Coligny","Tweede Oosterparkstraat 33"],
-            ["A","1091 XN","Multicultureel Centrum (zaal2)","Joubertstraat 15 C"],
-            ["A","1091 XX","Buurtcentrum Transvaal","Danie Theronstraat 2"],
-            ["A","1092 CW","Buurtcentrum Oosterpark","Derde Oosterparkstraat 159"],
-            ["A","1092 LA","Woonzorgcentrum Kastanjehof","Kastanjeplein 60"],
-            ["A + P","1093 BJ","Ouderencentrum De Gooyer","Von Zesenstraat 298"],
-            ["A","1093 EG","Muiderkerk (grote vergaderzaal)","Linneausstraat 37"],
-            ["A","1093 KL","Montessori College","Oost Polderweg 3"],
-            ["A","1093 KP","Sporthal Wethouder Verheij","Polderweg 300"],
-            ["A + P","1093 NG","Stadsdeelhuis","Oranje-Vrijstaatplein 2"],
-            ["A + P","1093 SH","Ouder & Kindcentrum Pontanusstraat","Pontanusstraat 278"],
-            ["B","1093 XG","Basisschool De Dapper","Pieter Nieuwlandstraat 3"],
-            ["A + P","1094 CC","Stayokay Amsterdam Zeeburg","Timorplein 21"],
-            ["C","1094 ED","J.P. Coenschool","Bankastraat 18"],
-            ["B","1094 JE","J.P. Coenschool","Balistraat 79"],
-            ["A","1094 JN","De Meevaart","Balistraat 48A"],
-            ["C","1094 LR","Basisschool","Insulinde Sumatrastraat 87"],
-            ["B","1094 PW","Gebouw de Evenaar (Gymzaal)","Ambonplein 59"],
-            ["A + P","1095 AC","Instroomhuis","Zeeburgerdijk 215"],
-            ["A + P","1095 CS","Het JAV'ART Huis","Javaplantsoen 6"],
-            ["A + P","1095 JS","Kindervreugd","Kramatweg 31 A"],
-            ["A","1095 KS","Verenigingsgebouw Batavia","Tidorestraat 107"],
-            ["B","1097 BT","Grand Cafe Frankendael","Middenweg 116"],
-            ["B","1097 DM","Don Bosco","James Wattstraat 56"],
-            ["C","1097 DP","Coffee Company","Mr. Treublaan 18"],
-            ["A","1097 DZ","Hogeschool van Amsterdam, Leeuwenburg","Weesperzijde 190"],
-            ["A + P","1097 EP","Koningskerk","Van 't Hofflaan 20"],
-            ["A + P","1097 KD","Koningskerk","Ostwaldstraat 1"],
-            ["A + P","1097 PP","De Open Hof","Fahrenheitstraat 115"],
-            ["A","1097 TV","Servicepunt Het Brinkhuis","Brink 45"],
-            ["A","1098 WD","Buurtcentrum Park de Meer","Anfieldroad 110"],
-            ["A","1098 XH","De Oerknal","Science Park 306"]
-        ],
-        "West": [
-            ["A","1013 PV","De Zeeheld","Roggeveenstraat 14"],
-            ["A + P","1013 VW","De Bogt Westerbeer","Polanenstraat 6"],
-            ["B","1014 ZG","De Spaarndammerhout","Revaleiland 1"],
-            ["B","1051 AX","Westerparkschool","Van Hogendorpplein 11"],
-            ["A + P","1051 BA","De Koperen Knoop","Van Limburg Stirumstraat 133"],
-            ["A","1051 CE","Van Hogendorphal","Van Hogendorpstraat 921"],
-            ["A + P","1051 HE","Openbare Bibliotheek Amsterdam","Van Hallstraat 615"],
-            ["A","1051 HE","Dependance Westerparkschool","Van Hallstraat 621"],
-            ["A","1051 KM","Marcanti College","Jan van Galenstraat 31"],
-            ["C","1051 XM","Basisschool De Bron","Van Beuningenstraat 141"],
-            ["A + P","1052 LS","Amsta locatie De Poort","Hugo de Grootkade 28"],
-            ["A","1052 SB","ASV Bilderdijkpark","Bilderdijkpark 10"],
-            ["A + P","1052 WN","Amsta locatie De Werf","Van Reigersbergenstraat 829"],
-            ["B","1053 GK","2e Montesorrischool Het Winterkoninkje","Jan Pieter Heijestraat 45"],
-            ["A","1053 LW","Leonardo da Vinci school","Nassaukade 342 A"],
-            ["C","1053 PE","Brede School De Kinkerbuurt","Ingang Nicolaas Beetsplantsoen"],
-            ["A","1053 SX","Buurthuis De Havelaar","Douwes Dekkerstraat 2"],
-            ["A","1053 ZP","Schoolgebouw ROC","Da Costastraat 64"],
-            ["B","1054 BR","Mentrum 1e","C Huygensstr 38"],
-            ["A","1054 DZ","Wackersacademie","Eerste Helmersstraat 271"],
-            ["A + P","1054 GZ","Vondelstede","Anna van den Vondelstr 30"],
-            ["A","1054 ZB","Annie M.G. Schmidt","Pieter Langendijkstraat 44"],
-            ["B","1055 CK","Tijl Uilenspiegelschool","Tijl Uilenspiegelstraat 11"],
-            ["B","1055 KK","de Wiltzangh","Hertspieghelweg 55"],
-            ["A","1055 NK","KBS De Boomgaard","Gibraltarstraat 61"],
-            ["A + P","1055 SB","Wachterliedpaviljoen","Wachterliedplantsoen 2"],
-            ["A + P","1055 SC","Centrum voor Ouderen","De Boeg Hoofdweg 495"],
-            ["C","1055 WC","Narcis-Queridoschool","Jan den Haenstraat 41"],
-            ["A + P","1056 AZ","Brede School de Springplank","Robert Scottstraat 28"],
-            ["C","1056 DT","Rosa Boekdrukkerschool","Vancouverstraat 3"],
-            ["C","1056 EP","AKC Blauw-Wit","Joos Banckersweg 18 A"],
-            ["B","1056 TR","School As Siddieq","Cornelis Dirkszstraat 6"],
-            ["A + P","1057 CA","Openbare Bibliotheek Amsterdam","Mercatorplein 89"],
-            ["A","1057 DT","Het Sieraad","Postjesweg 1"],
-            ["A","1057 DZ","Nieuw Vredenburgh","Postjesweg 125"],
-            ["C","1057 JA","School De Meidoorn","Ingang hek Van Kinsbergenstraat"],
-            ["A","1057 TX","Jacob Maris Buurthuis","Columbusplein 253"],
-            ["A","1057 VB","Dr. J. Th. de Visserschool","Columbusplein 34"],
-            ["A","1057 VS","Joop Westerweelschool","Balboaplein 44"],
-            ["A","1057 XN","De Wending","Witte de Withplein 5"],
-            ["B","1058 DA","Aslan Muziekcentrum","Corantijnstraat 9"],
-            ["A + P","1061 ER","Bos en Lommerschool","Flierefluiterpad 15"]
-        ],
-        "Zuid": [
-            ["C","1058 TV","Portocabin Theophile de Bockstraat","Theophile de Bockstraat t/o 13"],
-            ["A","1059 CT","Hoofdkwartier","Hoofddorpweg 25"],
-            ["A","1059 VX","Tobiasschool","Rietwijkerstraat 55"],
-            ["C","1071 CW","Cornelis Vrijschool","Van de Veldestraat 3"],
-            ["B","1071 KM","Obrechtkerk","Jacob Obrechtstraat 30"],
-            ["B","1071 LR","Hildebrand van Loonschool","Hondecoeterstraat 6"],
-            ["B","1071 SK","Gymzaal Nicolaas Maesschool","Heinzestraat 9"],
-            ["A + P","1071 WG","Gebouw de Coenen","Joh.M. Coenenstraat 4-6"],
-            ["C","1071 XA","Oud-Katholieke Kerk","Ingang Pieter Baststraat 3"],
-            ["B","1071 XL","NH Museum Quarter","Hobbemakade 50"],
-            ["C","1072 BD","Mixtup","Eerste Jacob van Campenstraat 59"],
-            ["C","1072 JS","Pastorie Vredeskerk","Pijnackerstraat 9"],
-            ["A + P","1072 MA","d'Oude Raai","Ferdinand Bolstraat 321"],
-            ["C","1072 RD","Sporthal de Pijp","Lizzy Ansinghstraat 88"],
-            ["A + P","1073 AE","Oranjekerk","Tweede Van der Helststr 1-3"],
-            ["A","1073 AV","Doven Ontmoetings Centrum","Stadhouderskade 89"],
-            ["C","1073 BH","VBSK Albert Cuyp","Albert Cuypstraat 241"],
-            ["A + P","1073 GX","De Kunstwerkplaats","Lutmastraat 181-183"],
-            ["B","1073 TE","9e Montessorischool De Scholekster","Karel du Jardinstraat 76"],
-            ["C","1073 TN","3e Daltonschool hoofdgebouw","Van Ostadestraat 201-203"],
-            ["A","1074 ED","Senioren bewonersruimte Servaes","Noutsstraat 3 t/m 99"],
-            ["B","1074 HA","De Edelsteen","Smaragdplein 3-5"],
-            ["B","1074 XR","Jan van der Heijdenhuis","Tweede Jan vd Heijdenstr 75"],
-            ["C","1075 NL","Gymzaal De Kleine Nicolaas","Cornelis Krusemanstraat 10"],
-            ["C","1075 NS","Basisschool Elout","Cornelis Krusemanstraat 68"],
-            ["A + P","1075 RV","Flatgebouw Baarsstraat","Baarsstraat 17A t/m 29E"],
-            ["B","1075 TJ","De Derde Schinkel","Derde Schinkelstraat 9"],
-            ["B","1075 XL","Dansschool Oostveen","Amstelveenseweg 132"],
-            ["A","1076 DE","Olympisch Stadion","Olympisch Stadion 2"],
-            ["A","1076 DN","Bibliotheek Olympisch Kwartier","Laan der Hesperiden 18"],
-            ["A + P","1076 EP","Sporthallen Zuid","Burgerweeshuispad 54"],
-            ["A + P","1076 RT","Huis van de Wijk","Olympus Hygieaplein 8-10"],
-            ["A","1076 VX","Willem de Zwijgerkerk","Olympiaweg 14"],
-            ["A + P","1077 BA","Apollohal","Stadionweg 5 (linker ingang)"],
-            ["A","1077 BG","Hilton Hotel hoofd ingang","Apollolaan 138"],
-            ["C","1077 HE","Hervormd Lyceum","Zuid Brahmsstraat 7"],
-            ["B","1077 LH","St. Ignatius Gymnasium","Ingang Adama van Scheltemaplein"],
-            ["A + P","1077 WB","Vrijburg","Diepenbrockstraat 46"],
-            ["A","1077 WX","Thomaskerk","Prinses Irenestraat 36"],
-            ["C","1078 CZ","Portocabin","IJselplein t/o Reggestraat 20"],
-            ["C","1078 GR","Knijn Bowling","Scheldeplein 3"],
-            ["A","1078 KW","Buurtlokaal","Geulstraat 9"],
-            ["B","1078 TB","Karunika","Meerhuizenplein 11"],
-            ["B","1078 TD","Karunika","Meerhuizenplein 38"],
-            ["B","1078 VJ","Anne Frankschool","Niersstraat 41"],
-            ["B","1079 EM","School De Rivieren - gebouw Het Viertje","Lekstraat 35 - 37"],
-            ["C","1079 GT","SBO Kolom/Meander","Winterdijkstraat 10"],
-            ["C","1079 LK","Mathildapaviljoen, 't Kabouterhuis","Amsteldijk 196"],
-            ["A","1079 MZ","Stadsloket Zuid","President Kennedylaan 923"],
-            ["A + P","1079 PX","Woon- en Zorgcentrum Torendael","Veluwelaan 21"],
-            ["A + P","1081 AS","Menno Simonszhuis","Noordhollandstraat 17 A"],
-            ["A","1081 ES","Marius ten Catehof","Van Nijenrodeweg 937"],
-            ["A","1081 HL","Andrieskerk","Arent Janszoon Ernststr 869"],
-            ["A + P","1081 HV","Vrije Universiteit Amsterdam","De Boelelaan 1105"],
-            ["A + P","1081 JB","Woonzorgcentrum","Buitenveldert Doornburg 2"],
-            ["C","1082 EK","Gymzaal bij school De Ark","Zuid-Hollandstraat 7"],
-            ["A","1082 GG","NH Amsterdam Zuid","Van Leijenberghlaan 221"],
-            ["A","1082 LP","Multifunctioneel Centrum Binnenhof","Arent Janszoon Ernststr 112"],
-            ["A + P","1083 BD","Verpleegtehuis De Buitenhof","Nieuw Herlaer 2"],
-            ["A + P","1083 HH","Revalidatie- en Zorgcentrum Vreugdehof","De Klencke 111"]
-        ],
-        "Zuidoost": [
-            ["A + P","1102 CW","Stadsdeelkantoor","Anton de Komplein 150"],
-            ["B","1102 JA","School De Rozemarn","Huntum 16"],
-            ["A","1102 MX","Basisschool Klaverblad","Darlingstraat 1"],
-            ["A + P","1102 RA","Wooncentrum De Venser","Berthold Brechtstraat 1"],
-            ["C","1102 WD","Basisschool De Schakel","Alexander Dumaslaan 9"],
-            ["B","1103 AC","Basisschool Polsstok","EGoli 2"],
-            ["B","1103 BE","Open Schoolgemeenschap Bijlmer","Gulden Kruis 5"],
-            ["A","1103 BG","Jongerencentrum No Limit","Geldershoofd 80"],
-            ["A + P","1103 PA","Serviceflat Garstkamp","Garstkamp 32"],
-            ["A + P","1104 CD","Buurtcentrum De Bonte Kraai","Kraaiennest 68"],
-            ["B","1104 HJ","Bijlmerdrieschool","Kantershof 641 - 642"],
-            ["A + P","1104 JA","Serviceflat Koornhorst","Koornhorst 32"],
-            ["A + P","1104 NB","Evean Henriette Roland Holst","Kortvoort 100"],
-            ["B","1106 HW","School De Brink","Mijehof 302 (ingang speelplaats)"],
-            ["B","1106 JX","Woongroep Surinaamse Ouderen","Randwijkhof 20-50"],
-            ["C","1106 LP","Holendrechtschool","Holendrechtplein 39-40"],
-            ["A + P","1106 MB","Verzorgingshuis Eben Haezer","Wisseloord 219"],
-            ["A + P","1106 SB","Wooncentrum De Drecht","Niftrikhof 1"],
-            ["C","1106 ZG","School Het Gein","Cornelis Aarnoutsstraat 80"],
-            ["A + P","1107 EZ","School De Tamboerijn","Reigersbos 301"],
-            ["A + P","1107 HG","Verpleeghuis Gaasperdam","Soestdijkstraat 4"],
-            ["B","1107 NG","School De Ster","Woudrichemstraat 8"],
-            ["A + P","1108 GH","Woon- en zorgcentrum","Nellestein Lopikhof 1"],
-            ["B","1109 BR","Stichting Dorpsraad Driemond","Stammerlandweg 10"]
-        ]
-    }
+  "metadata": [],
+  "data": {
+    "Centrum": [
+      {
+        "categorie": "C",
+        "postcode": "1011 DB",
+        "naam": "Gymlokaal",
+        "adres": "Tegenover Lastageweg 50"
+      },
+      {
+        "categorie": "A + P",
+        "postcode": "1011 DL",
+        "naam": "Openbare Bibliotheek",
+        "adres": "Amsterdam Oosterdokskade 143"
+      },
+      {
+        "categorie": "C",
+        "postcode": "1011 LX",
+        "naam": "School De Witte Olifant",
+        "adres": "Nieuwe Uilenburgerstraat 96"
+      },
+      {
+        "categorie": "A + P",
+        "postcode": "1011 MA",
+        "naam": "Flesseman Centrum van Ouderen",
+        "adres": "Nieuwmarkt 77"
+      },
+      {
+        "categorie": "A",
+        "postcode": "1011 VW",
+        "naam": "Stadhuis",
+        "adres": "Ingang Zwanenburgwal 13-15"
+      },
+      {
+        "categorie": "C",
+        "postcode": "1012 DB",
+        "naam": "Leger des Heils",
+        "adres": "Oudezijds Achterburgwal 45"
+      },
+      {
+        "categorie": "C",
+        "postcode": "1012 ET",
+        "naam": "De Regenboog Groep - De Princehof",
+        "adres": "Oudezijds Voorburgwal 165"
+      },
+      {
+        "categorie": "B",
+        "postcode": "1012 KD",
+        "naam": "Frascati",
+        "adres": "Nes 63"
+      },
+      {
+        "categorie": "A",
+        "postcode": "1012 VB",
+        "naam": "UvA - locatie P.C. Hoofthuis",
+        "adres": "Spuistraat 134 - 3e etage"
+      },
+      {
+        "categorie": "A",
+        "postcode": "1012 WP",
+        "naam": "Universiteitsbibliotheek Amsterdam",
+        "adres": "Singel 425"
+      },
+      {
+        "categorie": "B",
+        "postcode": "1013 BH",
+        "naam": "Ateliers Westerdok",
+        "adres": "Westerdok 318"
+      },
+      {
+        "categorie": "C",
+        "postcode": "1013 EX",
+        "naam": "Posthoornkerk",
+        "adres": "Haarlemmerstraat 124-126"
+      },
+      {
+        "categorie": "A",
+        "postcode": "1013 JR",
+        "naam": "Woon- en Zorgcentrum De Rietvinck",
+        "adres": "Vinkenstraat 185"
+      },
+      {
+        "categorie": "B",
+        "postcode": "1013 KS",
+        "naam": "School De Eilanden",
+        "adres": "Grote Bickersstraat 102"
+      },
+      {
+        "categorie": "C",
+        "postcode": "1015 BL",
+        "naam": "Burghtschool",
+        "adres": "Herengracht 34"
+      },
+      {
+        "categorie": "A",
+        "postcode": "1015 CV",
+        "naam": "De Rode Hoed",
+        "adres": "Keizersgracht 100"
+      },
+      {
+        "categorie": "C",
+        "postcode": "1015 HP",
+        "naam": "Dependance Theo Thijssen",
+        "adres": "Palmstraat 9"
+      },
+      {
+        "categorie": "C",
+        "postcode": "1015 LH",
+        "naam": "De Noorderspeeltuin",
+        "adres": "Tweede Lindendwarsstraat 10"
+      },
+      {
+        "categorie": "C",
+        "postcode": "1015 NA",
+        "naam": "Noorderkerk",
+        "adres": "Noordermarkt 47"
+      },
+      {
+        "categorie": "C",
+        "postcode": "1015 NG",
+        "naam": "Theo Thijssenschool",
+        "adres": "Anjeliersstraat 153"
+      },
+      {
+        "categorie": "B",
+        "postcode": "1015 PR",
+        "naam": "Het Perron",
+        "adres": "Egelantiersstraat 130"
+      },
+      {
+        "categorie": "A + P",
+        "postcode": "1015 ZN",
+        "naam": "Het Marnix",
+        "adres": "Marnixplein 1"
+      },
+      {
+        "categorie": "B",
+        "postcode": "1016 GW",
+        "naam": "Westerkerk",
+        "adres": "Prinsengracht 279"
+      },
+      {
+        "categorie": "C",
+        "postcode": "1016 NH",
+        "naam": "Mazzo",
+        "adres": "Rozengracht 114"
+      },
+      {
+        "categorie": "C",
+        "postcode": "1016 SB",
+        "naam": "ROC van Amsterdam",
+        "adres": "Elandsstraat 175"
+      },
+      {
+        "categorie": "A",
+        "postcode": "1016 TX",
+        "naam": "Het Claverhuis",
+        "adres": "Elandsgracht 70"
+      },
+      {
+        "categorie": "B",
+        "postcode": "1017 AW",
+        "naam": "Doopsgezinde Singelkerk",
+        "adres": "Singel 452"
+      },
+      {
+        "categorie": "C",
+        "postcode": "1017 CT",
+        "naam": "NH Caransa Hotel",
+        "adres": "Rembrandtplein 19"
+      },
+      {
+        "categorie": "B",
+        "postcode": "1017 HL",
+        "naam": "Stadsarchief - gebouw De Bazel",
+        "adres": "Vijzelstraat 32"
+      },
+      {
+        "categorie": "A",
+        "postcode": "1017 LD",
+        "naam": "Kerk De Duif",
+        "adres": "Prinsengracht 756"
+      },
+      {
+        "categorie": "B",
+        "postcode": "1017 PN",
+        "naam": "Amsterdam American Hotel",
+        "adres": "Leidsekade 97"
+      },
+      {
+        "categorie": "A + P",
+        "postcode": "1017 RR",
+        "naam": "De Balie",
+        "adres": "Kleine-Gartmanplantsoen 10"
+      },
+      {
+        "categorie": "B",
+        "postcode": "1017 VA",
+        "naam": "Basisschool De Kleine Reus",
+        "adres": "Nieuwe Looiersstraat 9"
+      },
+      {
+        "categorie": "A",
+        "postcode": "1018 DC",
+        "naam": "Artis - Tijgerzaal",
+        "adres": "Plantage Middenlaan 41 A"
+      },
+      {
+        "categorie": "B",
+        "postcode": "1018 ET",
+        "naam": "Voormalige Stadstimmertuin V",
+        "adres": "Stadstimmertuin 4-6"
+      },
+      {
+        "categorie": "C",
+        "postcode": "1018 LR",
+        "naam": "School De Pool",
+        "adres": "Poolstraat 2"
+      },
+      {
+        "categorie": "A",
+        "postcode": "1018 LT",
+        "naam": "De Witte Boei",
+        "adres": "Kleine Wittenburgerstr 201"
+      },
+      {
+        "categorie": "A + P",
+        "postcode": "1018 PR",
+        "naam": "De Keyzer",
+        "adres": "Czaar Peterstraat 10"
+      },
+      {
+        "categorie": "C",
+        "postcode": "1018 RA",
+        "naam": "De Clutch",
+        "adres": "Tweede Leeghwaterstraat 5 B"
+      },
+      {
+        "categorie": "A + P",
+        "postcode": "1018 ST",
+        "naam": "Korfbalvereniging Swift",
+        "adres": "Plantage Parklaan 20 A"
+      },
+      {
+        "categorie": "A",
+        "postcode": "1018 WC",
+        "naam": "Dr. Sarphatihuis",
+        "adres": "Roetersstraat 2"
+      },
+      {
+        "categorie": "B",
+        "postcode": "1018 WJ",
+        "naam": "Museumwerf 't Kromhout",
+        "adres": "Kruithuisstraat 25"
+      }
+    ],
+    "Nieuw-West": [
+      {
+        "categorie": "A + P",
+        "postcode": "1043 AP",
+        "naam": "APG Pensioenbeheer",
+        "adres": "Basisweg 10"
+      },
+      {
+        "categorie": "A",
+        "postcode": "1058 GA",
+        "naam": "Maureen's Bites and Drinks",
+        "adres": "Saskia van Uijlenburgkd 170"
+      },
+      {
+        "categorie": "C",
+        "postcode": "1060 LW",
+        "naam": "Basisschool de Odyssee",
+        "adres": "Cycladenlaan 2"
+      },
+      {
+        "categorie": "A",
+        "postcode": "1060 NT",
+        "naam": "Horizon Brenner",
+        "adres": "Brenner 9 (ingang Monte Rosaplein)"
+      },
+      {
+        "categorie": "B",
+        "postcode": "1060 TZ",
+        "naam": "Obs de Horizon",
+        "adres": "Zij-ingang Iwan Kantemanplein"
+      },
+      {
+        "categorie": "A + P",
+        "postcode": "1061 AD",
+        "naam": "Hogeschool Ipabo",
+        "adres": "Jan Tooropstraat 136"
+      },
+      {
+        "categorie": "B",
+        "postcode": "1062 CJ",
+        "naam": "Alexander Roozendaalschool",
+        "adres": "Jan Sluijtersstraat 3 (ingang gymzaal)"
+      },
+      {
+        "categorie": "A",
+        "postcode": "1062 CK",
+        "naam": "Woon- en Zorgcentrum De Riekerhof",
+        "adres": "Johan Jongkindstraat 3"
+      },
+      {
+        "categorie": "A",
+        "postcode": "1062 XK",
+        "naam": "Brede school Fiep Westendorp",
+        "adres": "Overschiestraat 168 A"
+      },
+      {
+        "categorie": "B",
+        "postcode": "1063 AD",
+        "naam": "Al Wafa Islamitische Basisschool",
+        "adres": "Harry Koningsbergerstr 30"
+      },
+      {
+        "categorie": "A",
+        "postcode": "1063 CW",
+        "naam": "O.B.S. Slootermeerschool",
+        "adres": "Burgemeester Fockstraat 85"
+      },
+      {
+        "categorie": "A",
+        "postcode": "1064 BR",
+        "naam": "Munduscollege",
+        "adres": "Herman Poortstraat 17"
+      },
+      {
+        "categorie": "A + P",
+        "postcode": "1064 CE",
+        "naam": "De Ontmoeting",
+        "adres": "Louis Couperusstraat 133 (ingang fysio)"
+      },
+      {
+        "categorie": "B",
+        "postcode": "1064 KC",
+        "naam": "Basisschool Veerkracht",
+        "adres": "Van Moerkerkestraat 89"
+      },
+      {
+        "categorie": "B",
+        "postcode": "1064 NE",
+        "naam": "SBO De Kans",
+        "adres": "Thomas van Aquinostraat 2"
+      },
+      {
+        "categorie": "A",
+        "postcode": "1064 PN",
+        "naam": "Cordaan de Oostoever",
+        "adres": "Bonnefantenstraat 10"
+      },
+      {
+        "categorie": "A",
+        "postcode": "1064 SW",
+        "naam": "Tuinstadhuis",
+        "adres": "Geuzenveld Plein '40-'45 nr. 1"
+      },
+      {
+        "categorie": "B",
+        "postcode": "1064 WZ",
+        "naam": "BSO de Groeiwereld",
+        "adres": "Lakenhalstraat 2"
+      },
+      {
+        "categorie": "A + P",
+        "postcode": "1065 BH",
+        "naam": "De Schutse",
+        "adres": "Comeniusstraat 20"
+      },
+      {
+        "categorie": "A + P",
+        "postcode": "1065 JX",
+        "naam": "Pro Rege Basisschool",
+        "adres": "Hemsterhuisstraat 87 A"
+      },
+      {
+        "categorie": "A",
+        "postcode": "1065 KH",
+        "naam": "Calvijn College",
+        "adres": "Pieter Calandlaan 3"
+      },
+      {
+        "categorie": "B",
+        "postcode": "1065 KW",
+        "naam": "Louis Bouwmeesterschool",
+        "adres": "Ingang Lobo-Braakensiekstraat"
+      },
+      {
+        "categorie": "B",
+        "postcode": "1065 VT",
+        "naam": "Huizingaschool - gymgebouw",
+        "adres": "Ingang via hek Justus Halbertsmastraat"
+      },
+      {
+        "categorie": "A",
+        "postcode": "1066 EC",
+        "naam": "MC Slotervaart",
+        "adres": "Louwesweg 6"
+      },
+      {
+        "categorie": "A + P",
+        "postcode": "1066 EZ",
+        "naam": "Molen van Sloten",
+        "adres": "Akersluis 10"
+      },
+      {
+        "categorie": "A + P",
+        "postcode": "1066 HK",
+        "naam": "Dependance De Mijlpaal",
+        "adres": "Anderlechtlaan 1"
+      },
+      {
+        "categorie": "A + P",
+        "postcode": "1066 KK",
+        "naam": "Obs De Vlaamse Reus",
+        "adres": "Hechtelstraat 49(zij-ingang Zonhovenstr)"
+      },
+      {
+        "categorie": "A",
+        "postcode": "1066 PP",
+        "naam": "R.K. Basisschool De Mijlpaal",
+        "adres": "Westmallepad 11"
+      },
+      {
+        "categorie": "A + P",
+        "postcode": "1066 XT",
+        "naam": "Cordaan Ottho",
+        "adres": "Heldringstraat 13"
+      },
+      {
+        "categorie": "A + P",
+        "postcode": "1067 DD",
+        "naam": "PlusPunt Eigenwijks",
+        "adres": "Geuzenveld Albardakade 5-7"
+      },
+      {
+        "categorie": "A",
+        "postcode": "1067 DE",
+        "naam": "'t Koggeschip Katholieke Basisschool",
+        "adres": "Abraham Kuyperplein 2"
+      },
+      {
+        "categorie": "B",
+        "postcode": "1067 EZ",
+        "naam": "Goeman Borgesiusschool",
+        "adres": "Aalbersestraat 35"
+      },
+      {
+        "categorie": "A",
+        "postcode": "1067 HG",
+        "naam": "Woonzorgcentrum Nieuw Geuzenveld",
+        "adres": "Cornelis Outshoornstraat 126"
+      },
+      {
+        "categorie": "A",
+        "postcode": "1067 JM",
+        "naam": "Timotheusschool",
+        "adres": "Sam van Houtenstraat 2"
+      },
+      {
+        "categorie": "B",
+        "postcode": "1068 BZ",
+        "naam": "Prof. Dr. H. Kraemerschool gymlok",
+        "adres": "ingang Veldzicht"
+      },
+      {
+        "categorie": "B",
+        "postcode": "1068 LL",
+        "naam": "Lucas Community",
+        "adres": "Notweg 32 (ingang BCO)"
+      },
+      {
+        "categorie": "A",
+        "postcode": "1068 MR",
+        "naam": "Osdorpse Montessorischool",
+        "adres": "Hoekenes 59"
+      },
+      {
+        "categorie": "B",
+        "postcode": "1068 SJ",
+        "naam": "Ichthusschool",
+        "adres": "Louis Davidsstraat 103"
+      },
+      {
+        "categorie": "A + P",
+        "postcode": "1068 TG",
+        "naam": "Stadsloket",
+        "adres": "Osdorpplein 1000"
+      },
+      {
+        "categorie": "B",
+        "postcode": "1068 VN",
+        "naam": "Vrouw en Vaart",
+        "adres": "President Allendelaan 733"
+      },
+      {
+        "categorie": "B",
+        "postcode": "1069 AJ",
+        "naam": "Verenigingsgebouw",
+        "adres": "Nivon Ouwerdingenpad 3"
+      },
+      {
+        "categorie": "A + P",
+        "postcode": "1069 BW",
+        "naam": "Zorgcentrum Leo Polak",
+        "adres": "Saaftingestraat 8"
+      },
+      {
+        "categorie": "A",
+        "postcode": "1069 JR",
+        "naam": "Basisschool Witte Tulp",
+        "adres": "Koos Vorrinkweg 5"
+      },
+      {
+        "categorie": "A",
+        "postcode": "1069 PC",
+        "naam": "Huis van de Wijk",
+        "adres": "De Aker Noorderakerweg 2"
+      },
+      {
+        "categorie": "B",
+        "postcode": "1069 PT",
+        "naam": "Het Groeipaleis",
+        "adres": "Joop Woortmanplein 5"
+      },
+      {
+        "categorie": "A + P",
+        "postcode": "1069 RK",
+        "naam": "De Kikker",
+        "adres": "Evertsweertplantsoen 3"
+      },
+      {
+        "categorie": "A",
+        "postcode": "1069 WK",
+        "naam": "Jenaplanschool Atlantis",
+        "adres": "Schuitenhuisstraat 5"
+      }
+    ],
+    "Noord": [
+      {
+        "categorie": "A",
+        "postcode": "1021 BZ",
+        "naam": "OBS De Kinderboom",
+        "adres": "Adelaarsweg 113 (ingang speelplaats)"
+      },
+      {
+        "categorie": "B",
+        "postcode": "1021 LA",
+        "naam": "Buurtcentrum De Valk",
+        "adres": "IJplein 3"
+      },
+      {
+        "categorie": "A + P",
+        "postcode": "1021 PH",
+        "naam": "Buurtcentrum De Meeuw",
+        "adres": "Motorwal 300"
+      },
+      {
+        "categorie": "B",
+        "postcode": "1023 BB",
+        "naam": "Altra College Noord",
+        "adres": "Purmerweg 116"
+      },
+      {
+        "categorie": "C",
+        "postcode": "1023 BH",
+        "naam": "Protestantse Gemeente Nieuwendam",
+        "adres": "Brede Kerkepad 6-8 (ingang via hek)"
+      },
+      {
+        "categorie": "B",
+        "postcode": "1023 EL",
+        "naam": "Speeltuinvereniging Nieuwendam",
+        "adres": "Monnikendammerplantsoen 12 A"
+      },
+      {
+        "categorie": "C",
+        "postcode": "1023 NB",
+        "naam": "ASV De Dijk",
+        "adres": "Schellingwouderdijk 220"
+      },
+      {
+        "categorie": "A",
+        "postcode": "1024 BE",
+        "naam": "Het Zwanenmeer",
+        "adres": "Beemsterstraat 491"
+      },
+      {
+        "categorie": "A",
+        "postcode": "1024 EA",
+        "naam": "OBS De Vijfsterren",
+        "adres": "Markengouw 245 A"
+      },
+      {
+        "categorie": "B",
+        "postcode": "1024 JR",
+        "naam": "Brede Mgr. Bekkersschool",
+        "adres": "Volendammerweg 160"
+      },
+      {
+        "categorie": "A",
+        "postcode": "1024 NB",
+        "naam": "Huis van de Wijk",
+        "adres": "Waterlandplein 302"
+      },
+      {
+        "categorie": "A + P",
+        "postcode": "1024 TT",
+        "naam": "Muziekschool Noord",
+        "adres": "Alkmaarstraat 10"
+      },
+      {
+        "categorie": "A",
+        "postcode": "1025 BH",
+        "naam": "Wijksteunpunt Wonen Noord",
+        "adres": "J. Drijverweg 5"
+      },
+      {
+        "categorie": "A",
+        "postcode": "1025 MZ",
+        "naam": "Senioren-flat De Wasknijper",
+        "adres": "G.J. Scheurleerweg 15"
+      },
+      {
+        "categorie": "B",
+        "postcode": "1025 NN",
+        "naam": "Orion College Amsterdam",
+        "adres": "Beijerlandstraat 2"
+      },
+      {
+        "categorie": "B",
+        "postcode": "1025 PX",
+        "naam": "Buurtcentrum de Driehoek",
+        "adres": "Waddenweg 116"
+      },
+      {
+        "categorie": "B",
+        "postcode": "1025 PZ",
+        "naam": "OBS Buikslotermeerschool",
+        "adres": "Breedveld 7"
+      },
+      {
+        "categorie": "A + P",
+        "postcode": "1025 VR",
+        "naam": "De Die",
+        "adres": "Loenermark 900"
+      },
+      {
+        "categorie": "A + P",
+        "postcode": "1025 XJ",
+        "naam": "Het Schouw",
+        "adres": "Dollardplein 2"
+      },
+      {
+        "categorie": "A + P",
+        "postcode": "1025 XL",
+        "naam": "Stadsdeelkantoor Amsterdam-Noord",
+        "adres": "Buikslotermeerplein 2000"
+      },
+      {
+        "categorie": "A + P",
+        "postcode": "1025 ZZ",
+        "naam": "Evean Korthagenhuis",
+        "adres": "Amerbos 590"
+      },
+      {
+        "categorie": "C",
+        "postcode": "1028 BK",
+        "naam": "Dorpshuis de Beke Dorpsweg",
+        "adres": "Ransdorp 29"
+      },
+      {
+        "categorie": "A",
+        "postcode": "1031 CB",
+        "naam": "OBS De Klimop",
+        "adres": "Varenweg 6"
+      },
+      {
+        "categorie": "A + P",
+        "postcode": "1031 CC",
+        "naam": "Cafe Restaurant De Pont",
+        "adres": "Buiksloterweg 3-5"
+      },
+      {
+        "categorie": "A",
+        "postcode": "1031 HD",
+        "naam": "Kringloopbedrijf De Lokatie",
+        "adres": "Distelweg 85"
+      },
+      {
+        "categorie": "A",
+        "postcode": "1032 HW",
+        "naam": "Het Anker",
+        "adres": "Kamperfoelieweg 226"
+      },
+      {
+        "categorie": "B",
+        "postcode": "1032 JR",
+        "naam": "OBS Oranje Nassauschool",
+        "adres": "Ribesstraat 13-15"
+      },
+      {
+        "categorie": "A + P",
+        "postcode": "1033 AN",
+        "naam": "Twiskehuis",
+        "adres": "Watermanstraat 2"
+      },
+      {
+        "categorie": "A",
+        "postcode": "1033 BE",
+        "naam": "Buurtcentrum De Evenaar",
+        "adres": "Kometensingel 189"
+      },
+      {
+        "categorie": "A",
+        "postcode": "1033 BW",
+        "naam": "Basisschool de Satelliet",
+        "adres": "Kometensingel 54 (ingang hoofdgebouw)"
+      },
+      {
+        "categorie": "A",
+        "postcode": "1033 GT",
+        "naam": "Gebouw",
+        "adres": "Meteorenweg 19A"
+      },
+      {
+        "categorie": "A",
+        "postcode": "1033 JR",
+        "naam": "De Rank",
+        "adres": "Druivenstraat 35"
+      },
+      {
+        "categorie": "B",
+        "postcode": "1033 LW",
+        "naam": "SBO De Zeppelin",
+        "adres": "Bessenpad 1 (ingang Mandarijnenstraat)"
+      },
+      {
+        "categorie": "A + P",
+        "postcode": "1033 PK",
+        "naam": "De Werf",
+        "adres": "Klinkerweg 73"
+      },
+      {
+        "categorie": "A",
+        "postcode": "1034 CR",
+        "naam": "Huis van de Wijk",
+        "adres": "Bezaanjachtplein 243-247"
+      },
+      {
+        "categorie": "A + P",
+        "postcode": "1034 CS",
+        "naam": "Boven IJ Ziekenhuis",
+        "adres": "Statenjachtstraat 1"
+      },
+      {
+        "categorie": "A",
+        "postcode": "1034 PX",
+        "naam": "OBS De Vier Windstreken",
+        "adres": "Parlevinker 11"
+      },
+      {
+        "categorie": "B",
+        "postcode": "1034 SG",
+        "naam": "OBS De Driemaster",
+        "adres": "Binnenvaart 1"
+      },
+      {
+        "categorie": "A + P",
+        "postcode": "1034 XZ",
+        "naam": "Eduard Douwes Dekkerhuis",
+        "adres": "Schoenerstraat 11"
+      },
+      {
+        "categorie": "B",
+        "postcode": "1035 EE",
+        "naam": "OBS De Bonkelaar",
+        "adres": "Molenwijk 3"
+      },
+      {
+        "categorie": "B",
+        "postcode": "1035 EE",
+        "naam": "OBS De Krijtmolen",
+        "adres": "Molenwijk 8"
+      },
+      {
+        "categorie": "A",
+        "postcode": "1035 EG",
+        "naam": "Openbare Bibliotheek Amsterdam",
+        "adres": "Molenwijk 21"
+      },
+      {
+        "categorie": "B",
+        "postcode": "1035 VR",
+        "naam": "OBS Twiskeschool",
+        "adres": "Pandorinastraat 7A (ingang hoofdgebouw)"
+      }
+    ],
+    "Oost": [
+      {
+        "categorie": "A",
+        "postcode": "1019 AT",
+        "naam": "Int. Instituut voor Sociale Geschiedenis",
+        "adres": "Cruquiusweg 31"
+      },
+      {
+        "categorie": "A",
+        "postcode": "1019 BN",
+        "naam": "Lloyd Hotel Oostelijke",
+        "adres": "Handelskade 34"
+      },
+      {
+        "categorie": "A + P",
+        "postcode": "1019 BN",
+        "naam": "KHL Koffiehuis",
+        "adres": "Oostelijke Handelskade 44"
+      },
+      {
+        "categorie": "A",
+        "postcode": "1019 JN",
+        "naam": "Basisschool Het Gouden Ei",
+        "adres": "C. van Eesterenlaan 50"
+      },
+      {
+        "categorie": "C",
+        "postcode": "1019 LE",
+        "naam": "Kompaszaal",
+        "adres": "KNSM-laan 311"
+      },
+      {
+        "categorie": "A",
+        "postcode": "1019 RT",
+        "naam": "OBS De Kleine Kapitein",
+        "adres": "Tosaristraat 30 A"
+      },
+      {
+        "categorie": "A",
+        "postcode": "1086 VB",
+        "naam": "abbs De Zuiderzee",
+        "adres": "Brigantijnkade 51"
+      },
+      {
+        "categorie": "A",
+        "postcode": "1086 WB",
+        "naam": "Montessorischool Steigereiland",
+        "adres": "John Hadleystraat 4"
+      },
+      {
+        "categorie": "A",
+        "postcode": "1087 DE",
+        "naam": "Flexbieb",
+        "adres": "Talbotstraat 47"
+      },
+      {
+        "categorie": "A",
+        "postcode": "1087 EH",
+        "naam": "Wijkpartners",
+        "adres": "Erich Salomonstraat 395"
+      },
+      {
+        "categorie": "A",
+        "postcode": "1087 EJ",
+        "naam": "De Binnenwaai",
+        "adres": "Ed Pelsterpark 2"
+      },
+      {
+        "categorie": "A + P",
+        "postcode": "1087 EM",
+        "naam": "Katholieke Basisschool Willibrord",
+        "adres": "Diemerparklaan 11"
+      },
+      {
+        "categorie": "A + P",
+        "postcode": "1087 HP",
+        "naam": "IJburg College",
+        "adres": "Pampuslaan 1"
+      },
+      {
+        "categorie": "A",
+        "postcode": "1091 AC",
+        "naam": "Onze Lieve Vrouwe Gasthuis",
+        "adres": "Oosterpark 9"
+      },
+      {
+        "categorie": "B",
+        "postcode": "1091 AN",
+        "naam": "OBS Aldoende",
+        "adres": "Tweede Boerhaavestraat 22"
+      },
+      {
+        "categorie": "A",
+        "postcode": "1091 GM",
+        "naam": "HVA - Wibauthuis",
+        "adres": "Wibautstraat 3 A"
+      },
+      {
+        "categorie": "B",
+        "postcode": "1091 HV",
+        "naam": "Gebouw voorheen School Louise de Coligny",
+        "adres": "Tweede Oosterparkstraat 33"
+      },
+      {
+        "categorie": "A",
+        "postcode": "1091 XN",
+        "naam": "Multicultureel Centrum (zaal2)",
+        "adres": "Joubertstraat 15 C"
+      },
+      {
+        "categorie": "A",
+        "postcode": "1091 XX",
+        "naam": "Buurtcentrum Transvaal",
+        "adres": "Danie Theronstraat 2"
+      },
+      {
+        "categorie": "A",
+        "postcode": "1092 CW",
+        "naam": "Buurtcentrum Oosterpark",
+        "adres": "Derde Oosterparkstraat 159"
+      },
+      {
+        "categorie": "A",
+        "postcode": "1092 LA",
+        "naam": "Woonzorgcentrum Kastanjehof",
+        "adres": "Kastanjeplein 60"
+      },
+      {
+        "categorie": "A + P",
+        "postcode": "1093 BJ",
+        "naam": "Ouderencentrum De Gooyer",
+        "adres": "Von Zesenstraat 298"
+      },
+      {
+        "categorie": "A",
+        "postcode": "1093 EG",
+        "naam": "Muiderkerk (grote vergaderzaal)",
+        "adres": "Linneausstraat 37"
+      },
+      {
+        "categorie": "A",
+        "postcode": "1093 KL",
+        "naam": "Montessori College",
+        "adres": "Oost Polderweg 3"
+      },
+      {
+        "categorie": "A",
+        "postcode": "1093 KP",
+        "naam": "Sporthal Wethouder Verheij",
+        "adres": "Polderweg 300"
+      },
+      {
+        "categorie": "A + P",
+        "postcode": "1093 NG",
+        "naam": "Stadsdeelhuis",
+        "adres": "Oranje-Vrijstaatplein 2"
+      },
+      {
+        "categorie": "A + P",
+        "postcode": "1093 SH",
+        "naam": "Ouder & Kindcentrum Pontanusstraat",
+        "adres": "Pontanusstraat 278"
+      },
+      {
+        "categorie": "B",
+        "postcode": "1093 XG",
+        "naam": "Basisschool De Dapper",
+        "adres": "Pieter Nieuwlandstraat 3"
+      },
+      {
+        "categorie": "A + P",
+        "postcode": "1094 CC",
+        "naam": "Stayokay Amsterdam Zeeburg",
+        "adres": "Timorplein 21"
+      },
+      {
+        "categorie": "C",
+        "postcode": "1094 ED",
+        "naam": "J.P. Coenschool",
+        "adres": "Bankastraat 18"
+      },
+      {
+        "categorie": "B",
+        "postcode": "1094 JE",
+        "naam": "J.P. Coenschool",
+        "adres": "Balistraat 79"
+      },
+      {
+        "categorie": "A",
+        "postcode": "1094 JN",
+        "naam": "De Meevaart",
+        "adres": "Balistraat 48A"
+      },
+      {
+        "categorie": "C",
+        "postcode": "1094 LR",
+        "naam": "Basisschool",
+        "adres": "Insulinde Sumatrastraat 87"
+      },
+      {
+        "categorie": "B",
+        "postcode": "1094 PW",
+        "naam": "Gebouw de Evenaar (Gymzaal)",
+        "adres": "Ambonplein 59"
+      },
+      {
+        "categorie": "A + P",
+        "postcode": "1095 AC",
+        "naam": "Instroomhuis",
+        "adres": "Zeeburgerdijk 215"
+      },
+      {
+        "categorie": "A + P",
+        "postcode": "1095 CS",
+        "naam": "Het JAV'ART Huis",
+        "adres": "Javaplantsoen 6"
+      },
+      {
+        "categorie": "A + P",
+        "postcode": "1095 JS",
+        "naam": "Kindervreugd",
+        "adres": "Kramatweg 31 A"
+      },
+      {
+        "categorie": "A",
+        "postcode": "1095 KS",
+        "naam": "Verenigingsgebouw Batavia",
+        "adres": "Tidorestraat 107"
+      },
+      {
+        "categorie": "B",
+        "postcode": "1097 BT",
+        "naam": "Grand Cafe Frankendael",
+        "adres": "Middenweg 116"
+      },
+      {
+        "categorie": "B",
+        "postcode": "1097 DM",
+        "naam": "Don Bosco",
+        "adres": "James Wattstraat 56"
+      },
+      {
+        "categorie": "C",
+        "postcode": "1097 DP",
+        "naam": "Coffee Company",
+        "adres": "Mr. Treublaan 18"
+      },
+      {
+        "categorie": "A",
+        "postcode": "1097 DZ",
+        "naam": "Hogeschool van Amsterdam, Leeuwenburg",
+        "adres": "Weesperzijde 190"
+      },
+      {
+        "categorie": "A + P",
+        "postcode": "1097 EP",
+        "naam": "Koningskerk",
+        "adres": "Van 't Hofflaan 20"
+      },
+      {
+        "categorie": "A + P",
+        "postcode": "1097 KD",
+        "naam": "Koningskerk",
+        "adres": "Ostwaldstraat 1"
+      },
+      {
+        "categorie": "A + P",
+        "postcode": "1097 PP",
+        "naam": "De Open Hof",
+        "adres": "Fahrenheitstraat 115"
+      },
+      {
+        "categorie": "A",
+        "postcode": "1097 TV",
+        "naam": "Servicepunt Het Brinkhuis",
+        "adres": "Brink 45"
+      },
+      {
+        "categorie": "A",
+        "postcode": "1098 WD",
+        "naam": "Buurtcentrum Park de Meer",
+        "adres": "Anfieldroad 110"
+      },
+      {
+        "categorie": "A",
+        "postcode": "1098 XH",
+        "naam": "De Oerknal",
+        "adres": "Science Park 306"
+      }
+    ],
+    "West": [
+      {
+        "categorie": "A",
+        "postcode": "1013 PV",
+        "naam": "De Zeeheld",
+        "adres": "Roggeveenstraat 14"
+      },
+      {
+        "categorie": "A + P",
+        "postcode": "1013 VW",
+        "naam": "De Bogt Westerbeer",
+        "adres": "Polanenstraat 6"
+      },
+      {
+        "categorie": "B",
+        "postcode": "1014 ZG",
+        "naam": "De Spaarndammerhout",
+        "adres": "Revaleiland 1"
+      },
+      {
+        "categorie": "B",
+        "postcode": "1051 AX",
+        "naam": "Westerparkschool",
+        "adres": "Van Hogendorpplein 11"
+      },
+      {
+        "categorie": "A + P",
+        "postcode": "1051 BA",
+        "naam": "De Koperen Knoop",
+        "adres": "Van Limburg Stirumstraat 133"
+      },
+      {
+        "categorie": "A",
+        "postcode": "1051 CE",
+        "naam": "Van Hogendorphal",
+        "adres": "Van Hogendorpstraat 921"
+      },
+      {
+        "categorie": "A + P",
+        "postcode": "1051 HE",
+        "naam": "Openbare Bibliotheek Amsterdam",
+        "adres": "Van Hallstraat 615"
+      },
+      {
+        "categorie": "A",
+        "postcode": "1051 HE",
+        "naam": "Dependance Westerparkschool",
+        "adres": "Van Hallstraat 621"
+      },
+      {
+        "categorie": "A",
+        "postcode": "1051 KM",
+        "naam": "Marcanti College",
+        "adres": "Jan van Galenstraat 31"
+      },
+      {
+        "categorie": "C",
+        "postcode": "1051 XM",
+        "naam": "Basisschool De Bron",
+        "adres": "Van Beuningenstraat 141"
+      },
+      {
+        "categorie": "A + P",
+        "postcode": "1052 LS",
+        "naam": "Amsta locatie De Poort",
+        "adres": "Hugo de Grootkade 28"
+      },
+      {
+        "categorie": "A",
+        "postcode": "1052 SB",
+        "naam": "ASV Bilderdijkpark",
+        "adres": "Bilderdijkpark 10"
+      },
+      {
+        "categorie": "A + P",
+        "postcode": "1052 WN",
+        "naam": "Amsta locatie De Werf",
+        "adres": "Van Reigersbergenstraat 829"
+      },
+      {
+        "categorie": "B",
+        "postcode": "1053 GK",
+        "naam": "2e Montesorrischool Het Winterkoninkje",
+        "adres": "Jan Pieter Heijestraat 45"
+      },
+      {
+        "categorie": "A",
+        "postcode": "1053 LW",
+        "naam": "Leonardo da Vinci school",
+        "adres": "Nassaukade 342 A"
+      },
+      {
+        "categorie": "C",
+        "postcode": "1053 PE",
+        "naam": "Brede School De Kinkerbuurt",
+        "adres": "Ingang Nicolaas Beetsplantsoen"
+      },
+      {
+        "categorie": "A",
+        "postcode": "1053 SX",
+        "naam": "Buurthuis De Havelaar",
+        "adres": "Douwes Dekkerstraat 2"
+      },
+      {
+        "categorie": "A",
+        "postcode": "1053 ZP",
+        "naam": "Schoolgebouw ROC",
+        "adres": "Da Costastraat 64"
+      },
+      {
+        "categorie": "B",
+        "postcode": "1054 BR",
+        "naam": "Mentrum 1e",
+        "adres": "C Huygensstr 38"
+      },
+      {
+        "categorie": "A",
+        "postcode": "1054 DZ",
+        "naam": "Wackersacademie",
+        "adres": "Eerste Helmersstraat 271"
+      },
+      {
+        "categorie": "A + P",
+        "postcode": "1054 GZ",
+        "naam": "Vondelstede",
+        "adres": "Anna van den Vondelstr 30"
+      },
+      {
+        "categorie": "A",
+        "postcode": "1054 ZB",
+        "naam": "Annie M.G. Schmidt",
+        "adres": "Pieter Langendijkstraat 44"
+      },
+      {
+        "categorie": "B",
+        "postcode": "1055 CK",
+        "naam": "Tijl Uilenspiegelschool",
+        "adres": "Tijl Uilenspiegelstraat 11"
+      },
+      {
+        "categorie": "B",
+        "postcode": "1055 KK",
+        "naam": "de Wiltzangh",
+        "adres": "Hertspieghelweg 55"
+      },
+      {
+        "categorie": "A",
+        "postcode": "1055 NK",
+        "naam": "KBS De Boomgaard",
+        "adres": "Gibraltarstraat 61"
+      },
+      {
+        "categorie": "A + P",
+        "postcode": "1055 SB",
+        "naam": "Wachterliedpaviljoen",
+        "adres": "Wachterliedplantsoen 2"
+      },
+      {
+        "categorie": "A + P",
+        "postcode": "1055 SC",
+        "naam": "Centrum voor Ouderen",
+        "adres": "De Boeg Hoofdweg 495"
+      },
+      {
+        "categorie": "C",
+        "postcode": "1055 WC",
+        "naam": "Narcis-Queridoschool",
+        "adres": "Jan den Haenstraat 41"
+      },
+      {
+        "categorie": "A + P",
+        "postcode": "1056 AZ",
+        "naam": "Brede School de Springplank",
+        "adres": "Robert Scottstraat 28"
+      },
+      {
+        "categorie": "C",
+        "postcode": "1056 DT",
+        "naam": "Rosa Boekdrukkerschool",
+        "adres": "Vancouverstraat 3"
+      },
+      {
+        "categorie": "C",
+        "postcode": "1056 EP",
+        "naam": "AKC Blauw-Wit",
+        "adres": "Joos Banckersweg 18 A"
+      },
+      {
+        "categorie": "B",
+        "postcode": "1056 TR",
+        "naam": "School As Siddieq",
+        "adres": "Cornelis Dirkszstraat 6"
+      },
+      {
+        "categorie": "A + P",
+        "postcode": "1057 CA",
+        "naam": "Openbare Bibliotheek Amsterdam",
+        "adres": "Mercatorplein 89"
+      },
+      {
+        "categorie": "A",
+        "postcode": "1057 DT",
+        "naam": "Het Sieraad",
+        "adres": "Postjesweg 1"
+      },
+      {
+        "categorie": "A",
+        "postcode": "1057 DZ",
+        "naam": "Nieuw Vredenburgh",
+        "adres": "Postjesweg 125"
+      },
+      {
+        "categorie": "C",
+        "postcode": "1057 JA",
+        "naam": "School De Meidoorn",
+        "adres": "Ingang hek Van Kinsbergenstraat"
+      },
+      {
+        "categorie": "A",
+        "postcode": "1057 TX",
+        "naam": "Jacob Maris Buurthuis",
+        "adres": "Columbusplein 253"
+      },
+      {
+        "categorie": "A",
+        "postcode": "1057 VB",
+        "naam": "Dr. J. Th. de Visserschool",
+        "adres": "Columbusplein 34"
+      },
+      {
+        "categorie": "A",
+        "postcode": "1057 VS",
+        "naam": "Joop Westerweelschool",
+        "adres": "Balboaplein 44"
+      },
+      {
+        "categorie": "A",
+        "postcode": "1057 XN",
+        "naam": "De Wending",
+        "adres": "Witte de Withplein 5"
+      },
+      {
+        "categorie": "B",
+        "postcode": "1058 DA",
+        "naam": "Aslan Muziekcentrum",
+        "adres": "Corantijnstraat 9"
+      },
+      {
+        "categorie": "A + P",
+        "postcode": "1061 ER",
+        "naam": "Bos en Lommerschool",
+        "adres": "Flierefluiterpad 15"
+      }
+    ],
+    "Zuid": [
+      {
+        "categorie": "C",
+        "postcode": "1058 TV",
+        "naam": "Portocabin Theophile de Bockstraat",
+        "adres": "Theophile de Bockstraat t/o 13"
+      },
+      {
+        "categorie": "A",
+        "postcode": "1059 CT",
+        "naam": "Hoofdkwartier",
+        "adres": "Hoofddorpweg 25"
+      },
+      {
+        "categorie": "A",
+        "postcode": "1059 VX",
+        "naam": "Tobiasschool",
+        "adres": "Rietwijkerstraat 55"
+      },
+      {
+        "categorie": "C",
+        "postcode": "1071 CW",
+        "naam": "Cornelis Vrijschool",
+        "adres": "Van de Veldestraat 3"
+      },
+      {
+        "categorie": "B",
+        "postcode": "1071 KM",
+        "naam": "Obrechtkerk",
+        "adres": "Jacob Obrechtstraat 30"
+      },
+      {
+        "categorie": "B",
+        "postcode": "1071 LR",
+        "naam": "Hildebrand van Loonschool",
+        "adres": "Hondecoeterstraat 6"
+      },
+      {
+        "categorie": "B",
+        "postcode": "1071 SK",
+        "naam": "Gymzaal Nicolaas Maesschool",
+        "adres": "Heinzestraat 9"
+      },
+      {
+        "categorie": "A + P",
+        "postcode": "1071 WG",
+        "naam": "Gebouw de Coenen",
+        "adres": "Joh.M. Coenenstraat 4-6"
+      },
+      {
+        "categorie": "C",
+        "postcode": "1071 XA",
+        "naam": "Oud-Katholieke Kerk",
+        "adres": "Ingang Pieter Baststraat 3"
+      },
+      {
+        "categorie": "B",
+        "postcode": "1071 XL",
+        "naam": "NH Museum Quarter",
+        "adres": "Hobbemakade 50"
+      },
+      {
+        "categorie": "C",
+        "postcode": "1072 BD",
+        "naam": "Mixtup",
+        "adres": "Eerste Jacob van Campenstraat 59"
+      },
+      {
+        "categorie": "C",
+        "postcode": "1072 JS",
+        "naam": "Pastorie Vredeskerk",
+        "adres": "Pijnackerstraat 9"
+      },
+      {
+        "categorie": "A + P",
+        "postcode": "1072 MA",
+        "naam": "d'Oude Raai",
+        "adres": "Ferdinand Bolstraat 321"
+      },
+      {
+        "categorie": "C",
+        "postcode": "1072 RD",
+        "naam": "Sporthal de Pijp",
+        "adres": "Lizzy Ansinghstraat 88"
+      },
+      {
+        "categorie": "A + P",
+        "postcode": "1073 AE",
+        "naam": "Oranjekerk",
+        "adres": "Tweede Van der Helststr 1-3"
+      },
+      {
+        "categorie": "A",
+        "postcode": "1073 AV",
+        "naam": "Doven Ontmoetings Centrum",
+        "adres": "Stadhouderskade 89"
+      },
+      {
+        "categorie": "C",
+        "postcode": "1073 BH",
+        "naam": "VBSK Albert Cuyp",
+        "adres": "Albert Cuypstraat 241"
+      },
+      {
+        "categorie": "A + P",
+        "postcode": "1073 GX",
+        "naam": "De Kunstwerkplaats",
+        "adres": "Lutmastraat 181-183"
+      },
+      {
+        "categorie": "B",
+        "postcode": "1073 TE",
+        "naam": "9e Montessorischool De Scholekster",
+        "adres": "Karel du Jardinstraat 76"
+      },
+      {
+        "categorie": "C",
+        "postcode": "1073 TN",
+        "naam": "3e Daltonschool hoofdgebouw",
+        "adres": "Van Ostadestraat 201-203"
+      },
+      {
+        "categorie": "A",
+        "postcode": "1074 ED",
+        "naam": "Senioren bewonersruimte Servaes",
+        "adres": "Noutsstraat 3 t/m 99"
+      },
+      {
+        "categorie": "B",
+        "postcode": "1074 HA",
+        "naam": "De Edelsteen",
+        "adres": "Smaragdplein 3-5"
+      },
+      {
+        "categorie": "B",
+        "postcode": "1074 XR",
+        "naam": "Jan van der Heijdenhuis",
+        "adres": "Tweede Jan vd Heijdenstr 75"
+      },
+      {
+        "categorie": "C",
+        "postcode": "1075 NL",
+        "naam": "Gymzaal De Kleine Nicolaas",
+        "adres": "Cornelis Krusemanstraat 10"
+      },
+      {
+        "categorie": "C",
+        "postcode": "1075 NS",
+        "naam": "Basisschool Elout",
+        "adres": "Cornelis Krusemanstraat 68"
+      },
+      {
+        "categorie": "A + P",
+        "postcode": "1075 RV",
+        "naam": "Flatgebouw Baarsstraat",
+        "adres": "Baarsstraat 17A t/m 29E"
+      },
+      {
+        "categorie": "B",
+        "postcode": "1075 TJ",
+        "naam": "De Derde Schinkel",
+        "adres": "Derde Schinkelstraat 9"
+      },
+      {
+        "categorie": "B",
+        "postcode": "1075 XL",
+        "naam": "Dansschool Oostveen",
+        "adres": "Amstelveenseweg 132"
+      },
+      {
+        "categorie": "A",
+        "postcode": "1076 DE",
+        "naam": "Olympisch Stadion",
+        "adres": "Olympisch Stadion 2"
+      },
+      {
+        "categorie": "A",
+        "postcode": "1076 DN",
+        "naam": "Bibliotheek Olympisch Kwartier",
+        "adres": "Laan der Hesperiden 18"
+      },
+      {
+        "categorie": "A + P",
+        "postcode": "1076 EP",
+        "naam": "Sporthallen Zuid",
+        "adres": "Burgerweeshuispad 54"
+      },
+      {
+        "categorie": "A + P",
+        "postcode": "1076 RT",
+        "naam": "Huis van de Wijk",
+        "adres": "Olympus Hygieaplein 8-10"
+      },
+      {
+        "categorie": "A",
+        "postcode": "1076 VX",
+        "naam": "Willem de Zwijgerkerk",
+        "adres": "Olympiaweg 14"
+      },
+      {
+        "categorie": "A + P",
+        "postcode": "1077 BA",
+        "naam": "Apollohal",
+        "adres": "Stadionweg 5 (linker ingang)"
+      },
+      {
+        "categorie": "A",
+        "postcode": "1077 BG",
+        "naam": "Hilton Hotel hoofd ingang",
+        "adres": "Apollolaan 138"
+      },
+      {
+        "categorie": "C",
+        "postcode": "1077 HE",
+        "naam": "Hervormd Lyceum",
+        "adres": "Zuid Brahmsstraat 7"
+      },
+      {
+        "categorie": "B",
+        "postcode": "1077 LH",
+        "naam": "St. Ignatius Gymnasium",
+        "adres": "Ingang Adama van Scheltemaplein"
+      },
+      {
+        "categorie": "A + P",
+        "postcode": "1077 WB",
+        "naam": "Vrijburg",
+        "adres": "Diepenbrockstraat 46"
+      },
+      {
+        "categorie": "A",
+        "postcode": "1077 WX",
+        "naam": "Thomaskerk",
+        "adres": "Prinses Irenestraat 36"
+      },
+      {
+        "categorie": "C",
+        "postcode": "1078 CZ",
+        "naam": "Portocabin",
+        "adres": "IJselplein t/o Reggestraat 20"
+      },
+      {
+        "categorie": "C",
+        "postcode": "1078 GR",
+        "naam": "Knijn Bowling",
+        "adres": "Scheldeplein 3"
+      },
+      {
+        "categorie": "A",
+        "postcode": "1078 KW",
+        "naam": "Buurtlokaal",
+        "adres": "Geulstraat 9"
+      },
+      {
+        "categorie": "B",
+        "postcode": "1078 TB",
+        "naam": "Karunika",
+        "adres": "Meerhuizenplein 11"
+      },
+      {
+        "categorie": "B",
+        "postcode": "1078 TD",
+        "naam": "Karunika",
+        "adres": "Meerhuizenplein 38"
+      },
+      {
+        "categorie": "B",
+        "postcode": "1078 VJ",
+        "naam": "Anne Frankschool",
+        "adres": "Niersstraat 41"
+      },
+      {
+        "categorie": "B",
+        "postcode": "1079 EM",
+        "naam": "School De Rivieren - gebouw Het Viertje",
+        "adres": "Lekstraat 35 - 37"
+      },
+      {
+        "categorie": "C",
+        "postcode": "1079 GT",
+        "naam": "SBO Kolom/Meander",
+        "adres": "Winterdijkstraat 10"
+      },
+      {
+        "categorie": "C",
+        "postcode": "1079 LK",
+        "naam": "Mathildapaviljoen, 't Kabouterhuis",
+        "adres": "Amsteldijk 196"
+      },
+      {
+        "categorie": "A",
+        "postcode": "1079 MZ",
+        "naam": "Stadsloket Zuid",
+        "adres": "President Kennedylaan 923"
+      },
+      {
+        "categorie": "A + P",
+        "postcode": "1079 PX",
+        "naam": "Woon- en Zorgcentrum Torendael",
+        "adres": "Veluwelaan 21"
+      },
+      {
+        "categorie": "A + P",
+        "postcode": "1081 AS",
+        "naam": "Menno Simonszhuis",
+        "adres": "Noordhollandstraat 17 A"
+      },
+      {
+        "categorie": "A",
+        "postcode": "1081 ES",
+        "naam": "Marius ten Catehof",
+        "adres": "Van Nijenrodeweg 937"
+      },
+      {
+        "categorie": "A",
+        "postcode": "1081 HL",
+        "naam": "Andrieskerk",
+        "adres": "Arent Janszoon Ernststr 869"
+      },
+      {
+        "categorie": "A + P",
+        "postcode": "1081 HV",
+        "naam": "Vrije Universiteit Amsterdam",
+        "adres": "De Boelelaan 1105"
+      },
+      {
+        "categorie": "A + P",
+        "postcode": "1081 JB",
+        "naam": "Woonzorgcentrum",
+        "adres": "Buitenveldert Doornburg 2"
+      },
+      {
+        "categorie": "C",
+        "postcode": "1082 EK",
+        "naam": "Gymzaal bij school De Ark",
+        "adres": "Zuid-Hollandstraat 7"
+      },
+      {
+        "categorie": "A",
+        "postcode": "1082 GG",
+        "naam": "NH Amsterdam Zuid",
+        "adres": "Van Leijenberghlaan 221"
+      },
+      {
+        "categorie": "A",
+        "postcode": "1082 LP",
+        "naam": "Multifunctioneel Centrum Binnenhof",
+        "adres": "Arent Janszoon Ernststr 112"
+      },
+      {
+        "categorie": "A + P",
+        "postcode": "1083 BD",
+        "naam": "Verpleegtehuis De Buitenhof",
+        "adres": "Nieuw Herlaer 2"
+      },
+      {
+        "categorie": "A + P",
+        "postcode": "1083 HH",
+        "naam": "Revalidatie- en Zorgcentrum Vreugdehof",
+        "adres": "De Klencke 111"
+      }
+    ],
+    "Zuidoost": [
+      {
+        "categorie": "A + P",
+        "postcode": "1102 CW",
+        "naam": "Stadsdeelkantoor",
+        "adres": "Anton de Komplein 150"
+      },
+      {
+        "categorie": "B",
+        "postcode": "1102 JA",
+        "naam": "School De Rozemarn",
+        "adres": "Huntum 16"
+      },
+      {
+        "categorie": "A",
+        "postcode": "1102 MX",
+        "naam": "Basisschool Klaverblad",
+        "adres": "Darlingstraat 1"
+      },
+      {
+        "categorie": "A + P",
+        "postcode": "1102 RA",
+        "naam": "Wooncentrum De Venser",
+        "adres": "Berthold Brechtstraat 1"
+      },
+      {
+        "categorie": "C",
+        "postcode": "1102 WD",
+        "naam": "Basisschool De Schakel",
+        "adres": "Alexander Dumaslaan 9"
+      },
+      {
+        "categorie": "B",
+        "postcode": "1103 AC",
+        "naam": "Basisschool Polsstok",
+        "adres": "EGoli 2"
+      },
+      {
+        "categorie": "B",
+        "postcode": "1103 BE",
+        "naam": "Open Schoolgemeenschap Bijlmer",
+        "adres": "Gulden Kruis 5"
+      },
+      {
+        "categorie": "A",
+        "postcode": "1103 BG",
+        "naam": "Jongerencentrum No Limit",
+        "adres": "Geldershoofd 80"
+      },
+      {
+        "categorie": "A + P",
+        "postcode": "1103 PA",
+        "naam": "Serviceflat Garstkamp",
+        "adres": "Garstkamp 32"
+      },
+      {
+        "categorie": "A + P",
+        "postcode": "1104 CD",
+        "naam": "Buurtcentrum De Bonte Kraai",
+        "adres": "Kraaiennest 68"
+      },
+      {
+        "categorie": "B",
+        "postcode": "1104 HJ",
+        "naam": "Bijlmerdrieschool",
+        "adres": "Kantershof 641 - 642"
+      },
+      {
+        "categorie": "A + P",
+        "postcode": "1104 JA",
+        "naam": "Serviceflat Koornhorst",
+        "adres": "Koornhorst 32"
+      },
+      {
+        "categorie": "A + P",
+        "postcode": "1104 NB",
+        "naam": "Evean Henriette Roland Holst",
+        "adres": "Kortvoort 100"
+      },
+      {
+        "categorie": "B",
+        "postcode": "1106 HW",
+        "naam": "School De Brink",
+        "adres": "Mijehof 302 (ingang speelplaats)"
+      },
+      {
+        "categorie": "B",
+        "postcode": "1106 JX",
+        "naam": "Woongroep Surinaamse Ouderen",
+        "adres": "Randwijkhof 20-50"
+      },
+      {
+        "categorie": "C",
+        "postcode": "1106 LP",
+        "naam": "Holendrechtschool",
+        "adres": "Holendrechtplein 39-40"
+      },
+      {
+        "categorie": "A + P",
+        "postcode": "1106 MB",
+        "naam": "Verzorgingshuis Eben Haezer",
+        "adres": "Wisseloord 219"
+      },
+      {
+        "categorie": "A + P",
+        "postcode": "1106 SB",
+        "naam": "Wooncentrum De Drecht",
+        "adres": "Niftrikhof 1"
+      },
+      {
+        "categorie": "C",
+        "postcode": "1106 ZG",
+        "naam": "School Het Gein",
+        "adres": "Cornelis Aarnoutsstraat 80"
+      },
+      {
+        "categorie": "A + P",
+        "postcode": "1107 EZ",
+        "naam": "School De Tamboerijn",
+        "adres": "Reigersbos 301"
+      },
+      {
+        "categorie": "A + P",
+        "postcode": "1107 HG",
+        "naam": "Verpleeghuis Gaasperdam",
+        "adres": "Soestdijkstraat 4"
+      },
+      {
+        "categorie": "B",
+        "postcode": "1107 NG",
+        "naam": "School De Ster",
+        "adres": "Woudrichemstraat 8"
+      },
+      {
+        "categorie": "A + P",
+        "postcode": "1108 GH",
+        "naam": "Woon- en zorgcentrum",
+        "adres": "Nellestein Lopikhof 1"
+      },
+      {
+        "categorie": "B",
+        "postcode": "1109 BR",
+        "naam": "Stichting Dorpsraad Driemond",
+        "adres": "Stammerlandweg 10"
+      }
+    ]
+  }
 }
