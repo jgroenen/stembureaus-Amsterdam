@@ -1,5 +1,16 @@
 {
-  "metadata": [],
+  "metadata": {
+    "contactpersoon": {
+      "naam": "Johan Groenen",
+      "email": "johan@apitecture.nl"
+    },
+    "bron": {
+      "url": "https://www.amsterdam.nl/veelgevraagd/?productid=%7B7A9C17CC-8F3D-4F41-BFB1-895B6B4D5E5F%7D#",
+      "titel": "stemlocaties referendum",
+      "filetype": "pdf"
+    },
+    "omschrijving": "De locaties van de stembureaus kunt u vanaf 9 februari downloaden op deze pagina. Het overzicht staat ook in de gemeentekrant Amsterdam. Deze krant wordt in februari huis aan huis verspreid."
+  },
   "data": {
     "Centrum": [
       {
